@@ -1,0 +1,62 @@
+body {
+  color: #2d3629;
+  background-color: #f2fcee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: #b0c9a6;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #2d3629;
+
+  text-align: center;
+  padding: 14px 16px;
+
+  /*will get rid of the usual underline*/
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+nav li a:hover {
+  background-color: #87aa79;
+}
+
+#active {
+  background-color: #80be67;
+}
+
+section {
+  float: left;
+  width: 60%;
+}
+
+section p {
+  font-size: 18px;
+}
+
+div {
+  float: right;
+  width: 30%;
+
+  margin: 20px;
+  padding: 10px;
+}
