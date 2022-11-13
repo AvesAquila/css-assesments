@@ -3,15 +3,21 @@
   Course: WebDevelopment
   Teacher: Mr. Hardman
   School: Pembinatrails Early College
-  Date Last Modified: 09/11/22 (dd/mm/yy)
+  Date Last Modified: 13/11/22 (dd/mm/yy)
 -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <style>
+      /*span is used in second paragraph*/
       span {
         font-weight: bold;
+      }
+
+      /*sm-text class may be moved to external in future if needed on other pages*/
+      .sm-text {
+        font-size: 16px;
       }
     </style>
     <meta charset="UTF-8" />
@@ -21,6 +27,7 @@
     <title>Treaty 3 - Overview and Promises</title>
   </head>
   <body>
+    <!--All header CSS done in an external stylesheet for easy copy paste-->
     <header>
       <h1>Treaty 3</h1>
       <nav>
@@ -39,13 +46,16 @@
           The Treaty covers part of South-East Manitoba and extends into Ontario. Treaty 3 obtained terms that exceeded the previous treaties
           drastically and became the treaty which all others were based upon.
         </p>
+
         <h2>Written and Verbal Promises</h2>
-        <p>
+        <!--this more detailed text is in a smaller font-->
+        <p class="sm-text">
+          <!--span is unique to this page, CSS is internal-->
           The Government of Canada promised to set aside reserves with <span>one square mile</span> for each family of five, and to set up
           monetary awards under the treaty's terms. With a one-time payment of <span>$12 per family</span> in cash, and another
           <span>$5 per person</span>, annually. Funding for any necessary farming equipment and tools were also promised.
         </p>
-        <p>
+        <p class="sm-text">
           Dispite the treaty being drawn with careful attention, not everything verbally promised to the Saulteaux appeared in writing. The
           written version did not meantion any conscriptions exemptions, or right to the Saulteaux's mineral extraction on their reserves. It
           also failed to meantion government provisions of food for celebrations at the annual payments, and that relatives in the United
@@ -53,6 +63,7 @@
         </p>
       </section>
 
+      <!--Two maps grouped with div, could/should probably be an aside-->
       <div>
         <img
           src="images/TreatiesMap.jpg"
@@ -67,5 +78,10 @@
           width="100%" />
       </div>
     </main>
+
+    <!--All footer CSS done in external for easy copy paste.-->
+    <footer>
+      <p>&#169;Vee Wright</p>
+    </footer>
   </body>
 </html>

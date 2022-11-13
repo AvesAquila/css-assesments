@@ -1,3 +1,4 @@
+/*generic rules applied throughout body*/
 body {
   color: #2d3629;
   background-color: #f2fcee;
@@ -11,6 +12,7 @@ h1 {
 nav ul {
   list-style-type: none;
 
+  /*needed to keep links in nav bar at edge, moves entire list to page edge*/
   margin: 0;
   padding: 0;
 
@@ -19,6 +21,7 @@ nav ul {
   background-color: #b0c9a6;
 }
 
+/*all list elements float to the edge of the list itself*/
 nav li {
   float: left;
 }
@@ -30,16 +33,18 @@ nav li a {
   text-align: center;
   padding: 14px 16px;
 
-  /*will get rid of the usual underline*/
+  /*will get rid of the usual underline for anchors*/
   text-decoration: none;
 
   font-weight: bold;
 }
 
+/*when hovering over different web pages in nav bar they will darken*/
 nav li a:hover {
   background-color: #87aa79;
 }
 
+/*darkens the display of page user is on in nav bar*/
 #active {
   background-color: #80be67;
 }
@@ -49,14 +54,28 @@ section {
   width: 60%;
 }
 
+/*only paragraphs within sections will have this font size*/
 section p {
   font-size: 18px;
 }
 
+/*styling for the div that contains the images in index.html*/
 div {
   float: right;
   width: 30%;
 
   margin: 20px;
   padding: 10px;
+}
+
+footer {
+  /*inline-block is only display method that seems to work here*/
+  display: inline-block;
+  /*padding may not be doing anything here*/
+  padding-top: 10px;
+
+  width: 100%;
+
+  background-color: #b0c9a6;
+  color: #2d3629;
 }
