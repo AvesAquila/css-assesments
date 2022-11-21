@@ -1,12 +1,21 @@
+html {
+  font-size: 62.5%;
+}
+
 /*generic rules applied throughout body*/
 body {
   color: #2d3629;
   background-color: #f2fcee;
   font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 1.8rem;
+  line-height: 140%;
 }
 
 h1 {
   text-align: center;
+
+  font-size: 4rem;
 }
 
 nav ul {
@@ -18,7 +27,7 @@ nav ul {
 
   overflow: hidden;
 
-  background-color: #b0c9a6;
+  background-color: #c9e2ac;
 }
 
 /*all list elements float to the edge of the list itself*/
@@ -46,7 +55,11 @@ nav li a:hover {
 
 /*darkens the display of page user is on in nav bar*/
 #active {
-  background-color: #80be67;
+  background-color: #94c482;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 section {
@@ -56,7 +69,7 @@ section {
 
 /*only paragraphs within sections will have this font size*/
 section p {
-  font-size: 18px;
+  font-size: 2.2rem;
 }
 
 /*styling for the div that contains the images in index.html*/
@@ -76,6 +89,6 @@ footer {
 
   width: 100%;
 
-  background-color: #b0c9a6;
+  background-color: #c9e2ac;
   color: #2d3629;
 }
