@@ -49,8 +49,13 @@ nav li a {
 }
 
 /*when hovering over different web pages in nav bar they will darken*/
-nav li a:hover {
+nav li a:hover,
+nav li a:focus {
   background-color: #87aa79;
+}
+
+nav li a:visited {
+  color: #505c4a;
 }
 
 /*darkens the display of page user is on in nav bar*/
@@ -70,15 +75,6 @@ section {
 /*only paragraphs within sections will have this font size*/
 section p {
   font-size: 2.2rem;
-}
-
-/*styling for the div that contains the images in index.html*/
-div {
-  float: right;
-  width: 30%;
-
-  margin: 20px;
-  padding: 10px;
 }
 
 footer {

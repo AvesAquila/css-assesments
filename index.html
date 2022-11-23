@@ -19,6 +19,23 @@
       .sm-text {
         font-size: 2rem;
       }
+
+      div {
+        float: right;
+        width: 40%;
+      }
+
+      iframe {
+        margin: 4% 2% 0%;
+        border: 3px solid #c9e2ac;
+        border-radius: 3px;
+      }
+
+      img {
+        margin: 0% 2% 4%;
+        border: 3px solid #c9e2ac;
+        border-radius: 3px;
+      }
     </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,17 +85,19 @@
 
       <!--Two maps grouped with div, could/should probably be an aside-->
       <div>
-        <img
+        <!--<img
           src="images/TreatiesMap.jpg"
           alt="A picture of a map of Canada with all treaty areas highlighted in red. Treaty 3 is on the
             border between Manitoba and Ontario"
-          width="100%" />
+          width="100%" />-->
+
+        <iframe src="https://native-land.ca/api/embed/embed.html?maps=treaties&amp;name=treaty-3" width="80%"> </iframe>
 
         <img
           src="images/Treaty3AreaMap.png"
           alt="A picture of a map of treaty 3 close up, cities and towns are marked with blue dots, while 
             Treaty 3 first nations areas are marked in red. There are a lot more red dots than blue."
-          width="100%" />
+          width="80%" />
       </div>
     </main>
 
