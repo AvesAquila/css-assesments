@@ -9,38 +9,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/stylesheet.css" />
     <style>
-      /*span is used in second paragraph*/
+      /*span is used in second paragraph, will make text bold*/
       span {
         font-weight: bold;
       }
 
-      /*sm-text class may be moved to external in future if needed on other pages*/
+      /*sm-text class may be moved to external in future if needed on other pages, will make text small*/
       .sm-text {
         font-size: 2rem;
       }
 
+      /*floats image and iframe in div to right of screen and sets div width*/
       div {
         float: right;
         width: 40%;
       }
 
+      /*
+        map iframe, adds 4% space to bottom, 2% to sides, and none to bottom.
+        makes a 3px border in a light green and slightly rounds the edges.
+        moves to right side of div
+      */
       iframe {
         margin: 4% 2% 0%;
         border: 3px solid #c9e2ac;
         border-radius: 3px;
+        float: right;
       }
 
+      /*
+        adds 0% space to top of image, 2% to sides, and 4% to bottom
+        adds same border as iframe
+        moves to right side of div
+      */
       img {
         margin: 0% 2% 4%;
         border: 3px solid #c9e2ac;
         border-radius: 3px;
+        float: right;
       }
     </style>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheets/stylesheet.css" />
     <title>Treaty 3 - Overview and Promises</title>
   </head>
   <body>

@@ -8,6 +8,8 @@ body {
   background-color: #f2fcee;
   font-family: Arial, Helvetica, sans-serif;
 
+  margin: 0px;
+
   font-size: 1.8rem;
   line-height: 140%;
 }
@@ -63,6 +65,10 @@ nav li a:visited {
   background-color: #94c482;
 }
 
+main {
+  margin: 0% 3%;
+}
+
 h2 {
   font-size: 4rem;
 }
@@ -73,18 +79,23 @@ section {
 }
 
 /*only paragraphs within sections will have this font size*/
-section p {
-  font-size: 2.2rem;
+p {
+  font-size: 2rem;
 }
 
 footer {
   /*inline-block is only display method that seems to work here*/
   display: inline-block;
-  /*padding may not be doing anything here*/
-  padding-top: 10px;
 
   width: 100%;
 
   background-color: #c9e2ac;
   color: #2d3629;
+}
+
+footer p {
+  display: inline-block;
+  font-size: 1.6rem;
+
+  margin: 2%;
 }
