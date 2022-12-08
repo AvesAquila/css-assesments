@@ -1,25 +1,48 @@
+/*
+  Gives entire webpage more space between lines with 2/5ths of a line between each line.
+  Default margin is also removed giving no space between the webpage and the borders of the browser being used by the client.
+*/
+* {
+  line-height: 140%;
+  margin: 0;
+}
+
+/*
+  Sets the root font size which rem is based off of to a respectable 62.5%, meaning that on a standard screen 1.0rem will be equal to 10px 
+  making the math (and therefore my life) easier.
+*/
 html {
   font-size: 62.5%;
 }
 
-/*generic rules applied throughout body*/
+/*
+  You never want your text to be completely black as it hurts the eyes so alas here we have set our main text colour throughout
+  body to be a dark green. The background colour is defaultly completely white which will also burn the eyeballs of the average human,
+  so here we set it once again to a green, but this time a light green so you can still see the text.
+  The font is also changed to an Arial font of default with the exception of if Arial is not installed on the clients computer. In which 
+  case it will attempt to load the webpage in the Helvetica font. If all else fails whatever sans-serif font the client has on hand will
+  be loaded. Font size too is changed, to 1.8rem, and as discussed previously, on an average monitor will be equal to 18px.
+*/
 body {
   color: #2d3629;
   background-color: #f2fcee;
   font-family: Arial, Helvetica, sans-serif;
 
-  margin: 0px;
-
   font-size: 1.8rem;
-  line-height: 140%;
 }
 
+/*
+  Sets the first heading in the middle of the screen on the x axis, and sets the font size to 400% of the root font size.
+*/
 h1 {
   text-align: center;
 
   font-size: 4rem;
 }
 
+/*
+  
+*/
 nav ul {
   list-style-type: none;
 
@@ -46,7 +69,6 @@ nav li a {
 
   /*will get rid of the usual underline for anchors*/
   text-decoration: none;
-
   font-weight: bold;
 }
 
@@ -78,7 +100,6 @@ section {
   width: 60%;
 }
 
-/*only paragraphs within sections will have this font size*/
 p {
   font-size: 2rem;
 }
@@ -98,4 +119,14 @@ footer p {
   font-size: 1.6rem;
 
   margin: 2%;
+}
+
+footer a {
+  float: right;
+
+  margin: 20px 10px;
+
+  font-size: 1.6rem;
+  text-decoration: underline 1px;
+  color: #2d3629;
 }
