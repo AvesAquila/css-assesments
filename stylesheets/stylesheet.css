@@ -1,4 +1,11 @@
 /*
+  Various shades of green were chosen for this website because green represents nature, which is highly valued
+  by indigenous peoples, and because it represents growth, a thing which we are constantly looking towards.
+  Green's positives lend themselves to the theme of this site, which is why they are used both as the main 
+  and secondary colours, but also as the tinted neutrals.
+*/
+
+/*
   Gives entire webpage more space between lines with 2/5ths of a line between each line.
   Default margin is also removed giving no space between the webpage and the borders of the browser being used by the client.
 */
@@ -41,7 +48,8 @@ h1 {
 }
 
 /*
-  
+  Removes the default bullets that appear with an unordered list. Then removes all default padding and  margin so the list can rest at
+  the edge of the screen. chages the backgorund colour to a darker and more vibrant green than the standard background.
 */
 nav ul {
   list-style-type: none;
@@ -50,6 +58,7 @@ nav ul {
   margin: 0;
   padding: 0;
 
+  /*without this the nav bar bleeds intensely, hide anything that escapes!!!!*/
   overflow: hidden;
 
   background-color: #c9e2ac;
@@ -60,6 +69,13 @@ nav li {
   float: left;
 }
 
+/*
+  Sets display function as a block since we want these links to be their own little entities so they can go in an horizontal line
+  with their newfound freedom. The colour is a rich green, everything is green, and growing, and evolving. The text gets aligned to the 
+  center of their blocks as they give up on ever seeing their list friends again, but their solo houses grow to a 14x16px space, which will
+  cost them all of the (nonexist) money they get for working as my navigation links. Finally, we burn their shoes because you dont wear 
+  shoes in the house. And then they become bold.
+*/
 nav li a {
   display: block;
   color: #2d3629;
@@ -78,6 +94,9 @@ nav li a:focus {
   background-color: #87aa79;
 }
 
+/*
+  text on visited nav links will be a less noticable green.
+*/
 nav li a:visited {
   color: #505c4a;
 }
@@ -87,23 +106,38 @@ nav li a:visited {
   background-color: #94c482;
 }
 
+/*
+  Adds 5 percent of space between the main element and the cage that is your web browser
+*/
 main {
-  margin: 0% 3%;
+  margin: 0% 5%;
 }
 
+/*
+  Makes the second level headings have a size of 400% percent of the root font size
+*/
 h2 {
   font-size: 4rem;
 }
 
+/*takes section container, shoves it to the left and squished it down to 60& of the screen width*/
 section {
   float: left;
   width: 60%;
 }
 
+/*text within section gets the luxury of being 200% of the root font size, and the luxury of 8 out ward pixels of space*/
 p {
   font-size: 2rem;
+  margin: 8px;
 }
 
+/*
+  display, inline block (so i can actually have a set width and it can not hugh other elemts)
+  width, whole screen (shocker)
+  background colour, green (so unexpected)
+  text color, darkgreen (how daring)
+*/
 footer {
   /*inline-block is only display method that seems to work here*/
   display: inline-block;
@@ -114,6 +148,11 @@ footer {
   color: #2d3629;
 }
 
+/*
+  paragraph text within fotter will be small, and a block in a line
+  fontsize is set to a smaller value of 1.6 rem
+  all around margin of 2%
+*/
 footer p {
   display: inline-block;
   font-size: 1.6rem;
@@ -121,12 +160,22 @@ footer p {
   margin: 2%;
 }
 
+/*
+  footer anchor tags, featuring:
+  floating to the right of the screen
+  having a top-bottom margin of 20px and a left-right margin of 10px
+  a fotn size same as its paragraph text brother
+  making the regular underline thinner
+  a text colour the same as its brother
+*/
 footer a {
   float: right;
 
   margin: 20px 10px;
 
   font-size: 1.6rem;
+  -webkit-text-decoration: underline 1px;
+  -moz-text-decoration: underline 1px;
   text-decoration: underline 1px;
   color: #2d3629;
 }
