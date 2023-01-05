@@ -39,12 +39,12 @@ body {
 }
 
 /*
-  Sets the first heading in the middle of the screen on the x axis, and sets the font size to 400% of the root font size.
+  Sets the first heading in the middle of the screen on the x axis, and sets the font size to 440% of the root font size.
 */
 h1 {
   text-align: center;
 
-  font-size: 4rem;
+  font-size: 4.4rem;
 }
 
 /*
@@ -78,7 +78,7 @@ nav li {
 */
 nav li a {
   display: block;
-  color: #2d3629;
+  color: #212420;
 
   text-align: center;
   padding: 14px 16px;
@@ -98,12 +98,12 @@ nav li a:focus {
   text on visited nav links will be a less noticable green.
 */
 nav li a:visited {
-  color: #505c4a;
+  color: #2c3f21;
 }
 
 /*darkens the display of page user is on in nav bar*/
 #active {
-  background-color: #94c482;
+  background-color: #b9db99;
 }
 
 /*
@@ -114,10 +114,10 @@ main {
 }
 
 /*
-  Makes the second level headings have a size of 400% percent of the root font size
+  Makes the second level headings have a size of 340% percent of the root font size
 */
 h2 {
-  font-size: 4rem;
+  font-size: 3.4rem;
 }
 
 /*takes section container, shoves it to the left and squished it down to 60& of the screen width*/
