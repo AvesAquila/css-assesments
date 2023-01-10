@@ -14,13 +14,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheets/stylesheet.css" />
     <style>
-      /*
-        Adds 30px of null space on the top and bottom of the section tag/container
-      */
-      section {
-        margin: 30px 0px;
-      }
-
       /*span is used in second paragraph, will make text bold*/
       span {
         font-weight: bold;
@@ -29,12 +22,6 @@
       /*sm-text class may be moved to external in future if needed on other pages, will make text small*/
       .sm-text {
         font-size: 2rem;
-      }
-
-      /*floats image and iframe in div to right of screen and sets div width*/
-      div {
-        float: right;
-        width: 40%;
       }
 
       /*
@@ -46,7 +33,6 @@
         margin: 4% 2% 0%;
         border: 3px solid #c9e2ac;
         border-radius: 3px;
-        float: right;
       }
 
       /*
@@ -58,7 +44,6 @@
         margin: 0% 2% 4%;
         border: 3px solid #c9e2ac;
         border-radius: 3px;
-        float: right;
       }
     </style>
     <title>Treaty 3 - Overview and Promises</title>
@@ -101,21 +86,20 @@
       </section>
 
       <!--Two maps grouped with div, could/should probably be an aside-->
-      <div>
-        <!--<img
+
+      <!--<img
           src="images/TreatiesMap.jpg"
           alt="A picture of a map of Canada with all treaty areas highlighted in red. Treaty 3 is on the
             border between Manitoba and Ontario"
           width="100%" />-->
 
-        <iframe src="https://native-land.ca/api/embed/embed.html?maps=treaties&amp;name=treaty-3" width="80%" height="200px"></iframe>
+      <iframe src="https://native-land.ca/api/embed/embed.html?maps=treaties&amp;name=treaty-3" width="80%" height="200px"></iframe>
 
-        <img
-          src="images/Treaty3AreaMap.png"
-          alt="A picture of a map of treaty 3 close up, cities and towns are marked with blue dots, while 
+      <img
+        src="images/Treaty3AreaMap.png"
+        alt="A picture of a map of treaty 3 close up, cities and towns are marked with blue dots, while 
             Treaty 3 first nations areas are marked in red. There are a lot more red dots than blue."
-          width="80%" />
-      </div>
+        width="80%" />
     </main>
 
     <!--All footer CSS done in external for easy copy paste.-->

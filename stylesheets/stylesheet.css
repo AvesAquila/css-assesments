@@ -32,10 +32,13 @@ html {
 */
 body {
   color: #2d3629;
-  background-color: #f2fcee;
   font-family: Arial, Helvetica, sans-serif;
-
   font-size: 1.8rem;
+}
+
+main {
+  width: 652px;
+  background-color: #f2fcee;
 }
 
 /*
@@ -118,12 +121,6 @@ main {
 */
 h2 {
   font-size: 3.4rem;
-}
-
-/*takes section container, shoves it to the left and squished it down to 60& of the screen width*/
-section {
-  float: left;
-  width: 60%;
 }
 
 /*text within section gets the luxury of being 200% of the root font size, and the luxury of 8 out ward pixels of space*/
