@@ -31,12 +31,11 @@ html {
   be loaded. Font size too is changed, to 1.8rem, and as discussed previously, on an average monitor will be equal to 18px.
 */
 body {
-  background-image: url("images/Treaty3NegotiationsTranslator.jpg");
-  -webkit-background-size: 100px 100px;
-  -moz-background-size: 100px;
-  -o-background-size: 100px;
-  background-size: 100px;
-  background-repeat: repeat;
+  background-image: url(../images/pale_olive_green_background-seamless_texture.jpg);
+  -webkit-background-size: 200px 200px;
+  -moz-background-size: 200px;
+  -o-background-size: 200px;
+  background-size: 200px;
 
   color: #2d3629;
   font-family: Arial, Helvetica, sans-serif;
@@ -55,7 +54,6 @@ h1 {
 
   font-size: 4.4rem;
 }
-
 /*
   Removes the default bullets that appear with an unordered list. Then removes all default padding and  margin so the list can rest at
   the edge of the screen. chages the backgorund colour to a darker and more vibrant green than the standard background.
@@ -70,7 +68,7 @@ nav ul {
   /*without this the nav bar bleeds intensely, hide anything that escapes!!!!*/
   overflow: hidden;
 
-  background-color: #c9e2ac;
+  background-color: #b9db99;
 }
 
 /*all list elements float to the edge of the list itself*/
@@ -121,6 +119,15 @@ nav li a:visited {
 main {
   width: 652px;
   background-color: #f2fcee;
+
+  position: relative;
+  left: 20%;
+
+  padding-bottom: 12px;
+
+  -webkit-box-shadow: inset 0px 2px 3px #92b174;
+  -moz-box-shadow: inset 0px 2px 3px #92b174;
+  box-shadow: inset 0px 2px 3px #92b174;
 }
 
 /*
@@ -128,7 +135,7 @@ main {
 */
 h2 {
   font-size: 3.4rem;
-  margin: 2px 20px;
+  margin: 0px 20px 2px;
 }
 
 /*text within section gets the luxury of being 200% of the root font size, and the luxury of 8 out ward pixels of space*/
@@ -157,7 +164,7 @@ footer {
 
   width: 100%;
 
-  background-color: #c9e2ac;
+  background-color: #b9db99;
   color: #2d3629;
 }
 
